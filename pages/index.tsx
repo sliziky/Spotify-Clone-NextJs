@@ -7,8 +7,8 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
-      <main className="flex bg-black min-h-screen text-white">
+    <div className="overflow-y-hidden h-max">
+      <main className="flex bg-black min-h-screen text-white overflow-y-hidden">
         <Sidebar/>
         <Center/>
       </main>
